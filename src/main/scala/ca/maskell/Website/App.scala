@@ -8,6 +8,8 @@ object App extends FinatraServer {
   
   class ExampleApp extends Controller {
 
+    System.setProperty("com.twitter.finatra.config.port", ":80")
+
     /**
      * Basic Example
      *
